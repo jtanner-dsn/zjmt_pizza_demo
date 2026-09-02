@@ -1,0 +1,28 @@
+{
+  "generationParameters": {
+    "generationDate": "Wed Sep 02 2026 12:26:47 GMT-0500 (Central Daylight Time)",
+    "generatorPlatform": "Visual Studio Code",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "https://d23app.dassian.org:44300/sap/opu/odata4/sap/zui_jmt_pizza_order_o4/srvd/sap/zui_jmt_pizza_order_o4/0001/",
+    "appName": "zjmt_pizza_demo",
+    "appTitle": "Pizza Demo App",
+    "appDescription": "Order Pizzas - in Fiori!",
+    "appNamespace": "zjmt",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.120.23",
+    "enableEslint": true,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.31.1",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "PizzaOrder"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}
