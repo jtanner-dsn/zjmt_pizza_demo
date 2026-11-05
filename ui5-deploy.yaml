@@ -1,0 +1,25 @@
+## yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "4.0"
+metadata:
+  name: zjmt.zjmtpizzademo
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://d23app.dassian.org:44300
+        app:
+          name: ZJMT_DEMO_PIZZA
+          description: Z Demo Pizza Orders
+          package: ZJMT_PIZZA_DEMO
+          transport: D23K901808
+        exclude:
+          - /test/
+          - /localService/
